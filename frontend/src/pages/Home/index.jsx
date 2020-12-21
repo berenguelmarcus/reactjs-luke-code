@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Animate from '../../components/Animate';
-import CardCourse from '../../components/CardCourse'
+import CardCourse from '../../components/CardCourse';
+import CardCategory from '../../components/CardCategory';
 
 import './styles.css';
 
@@ -61,17 +62,12 @@ const Home = () => {
                 <div className="container">
                     <h2>O que oferecemos a você</h2>
                     <section className="categories-container">
-                        
-                        <div className="category-card">
-                            <div className="category-card-img">
-
-                            </div>
-                            <div className="category-card-content">
-                                <h4>Texto</h4>
-                                <p>Texto</p>
-                            </div>
-                        </div>
-                    
+                        <CardCategory title="CLOUD-COMPUTNG" courses="22 cursos" color="red"/>
+                        <CardCategory title="BACK-END" courses="22 cursos" color="yellow"/>
+                        <CardCategory title="BANCO DE DADOS" courses="22 cursos" color="purple"/>
+                        <CardCategory title="SEGURANÇA" courses="22 cursos" color="blue"/>
+                        <CardCategory title="MOBILE" courses="22 cursos" color="green"/>
+                        <CardCategory title="FRONT-END" courses="22 cursos" color="orange"/>           
                     </section>
                 </div>
             </div>

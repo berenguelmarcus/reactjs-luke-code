@@ -41,7 +41,7 @@
 }
 
 .section-1 .container .header nav button:nth-child(2) {
-    background-color: rgba(89, 254, 155, 0.9);
+    background-color: #59fe9be6;
     border: 2px #fff !important;
 }
 
@@ -149,40 +149,7 @@
 
 .section-3 .container .categories-container {
     height: 52vh;
-}
-
-.section-3 .container .categories-container .category-card {
-    width: 340px;
-    height: 100px;
-    border-radius: 4px;
-    background-color: #fcfcfc;
     display: flex;
-
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-.section-3 .container .categories-container .category-card .category-card-img {
-    width: 92px;
-    height: 100px;
-    border-radius: 4px 0px 0px 4px;
-    background-color: red;
-
-}
-
-.section-3 .container .categories-container .category-card .category-card-content {
-    width: 248px;
-    padding: 16px;
-}
-
-.section-3 .container .categories-container .category-card .category-card-content p {
-    margin-top: 32px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #494949;
-}
-
-
-/*
-
-::-webkit-scrollbar { width: 10px; } ::-webkit-scrollbar-thumb { background-color: #20B2AA; border-radius: 10px; } ::-webkit-scrollbar-track { background-color: #BDBDBD; } 
-
-*/
